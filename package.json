@@ -1,0 +1,16 @@
+{
+  "name": "mytube-reloaded",
+  "version": "1.0.0",
+  "description": "the best way to watch vidoes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marudaga/mytube-reloaded.git"
+  },
+  "author": "marudaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marudaga/mytube-reloaded/issues"
+  },
+  "homepage": "https://github.com/marudaga/mytube-reloaded#readme"
+}
