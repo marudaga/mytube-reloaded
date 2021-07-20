@@ -7,10 +7,22 @@
     "type": "git",
     "url": "git+https://github.com/marudaga/mytube-reloaded.git"
   },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
   "author": "marudaga",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marudaga/mytube-reloaded/issues"
   },
-  "homepage": "https://github.com/marudaga/mytube-reloaded#readme"
+  "homepage": "https://github.com/marudaga/mytube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.12"
+  }
 }
