@@ -2,3 +2,12 @@ extends base.pug
 
 block content
     h2 Welcome here you will see the trending video 
+    ul  
+        each video in videos 
+            li
+        else 
+
+            //- interation 의 경우 array이거나 object를 사용 object ex/1: 'one', 2: 'two'등등
+            //- li=video 와 li #{video} 차이점
+            //- pug에서 each 변수 in 변수집합이라는 것을 쓰면 변수가 없으면 else로 넘어간다.
+            //- each 변수 in 변수집합 에서 변수는 바껴도 되는데 변수집단가 정의되지않으면이 다르면 length of undefined라는 error를 보낸다.
