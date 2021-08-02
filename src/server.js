@@ -1,5 +1,11 @@
-@ import express from "express";
-const  PORT =4000;
+import express from "express";
+import morgan from "morgan";
+import globalRouter from "./routers/globalRouter";
+import videoRouter from "./routers/videoRouter";
+import userRouter from "./routers/userRouter";
+
+const PORT = 4000;
+
 const app = express();
 
 const gassipMiddleware = (req, res, next) => {
